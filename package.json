@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --check . --ignore-path ./.gitignore",
-    "format:fix": "prettier --write . --ignore-path ./.gitignore"
+    "format:fix": "prettier --write . --ignore-path ./.gitignore",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
@@ -26,6 +28,10 @@
     "typescript": "^5.5.4"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.10.0",
+    "eslint-plugin-astro": "^1.2.3",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.6"
