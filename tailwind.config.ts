@@ -11,5 +11,8 @@ export default {
       },
     },
   },
-  plugins: [formsPlugin],
+  plugins: [formsPlugin, require('@catppuccin/tailwindcss')({
+    prefix: 'ctp',
+    defaultFlavour: 'mocha',
+  }),],
 } satisfies Config;
