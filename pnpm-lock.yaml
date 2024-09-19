@@ -60,6 +60,9 @@ importers:
       '@iconify-json/grommet-icons':
         specifier: ^1.2.0
         version: 1.2.0
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@types/node':
         specifier: ^22.5.5
         version: 22.5.5
@@ -473,6 +476,9 @@ packages:
 
   '@iconify-json/grommet-icons@1.2.0':
     resolution: {integrity: sha512-YnhfMsJeXsfsSkMQP206MpVPY/O0jXbyhC9+P70W6SkVvpODqw72GK7TV1pnKUuPvNRZzRik2x+9KWQxgmMhGQ==}
+
+  '@iconify-json/simple-icons@1.2.3':
+    resolution: {integrity: sha512-KZpqyPkDdyAvrpMz9/FYovwFsr3xrHf9esJeBng3iqNInhuZhF33XO1k6Yf8g2p10ynUW7AYEiGJkYzDi4DENQ==}
 
   '@iconify/tools@4.0.6':
     resolution: {integrity: sha512-riEQggXVuZNXjRdo+aKT0rkzn2XHslIqat8mdW/oVu5mLmP/95Hi+iaq4keT7WwMD97jsYPXMQ6QMCw0EWpRNw==}
@@ -3699,6 +3705,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/grommet-icons@1.2.0':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
