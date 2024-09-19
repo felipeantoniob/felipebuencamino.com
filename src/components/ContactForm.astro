@@ -1,0 +1,45 @@
+<form class="mx-4 flex flex-col gap-4">
+  <div>
+    <label for="name" class="text-sm sm:text-base">
+      Name
+      <input
+        id="name"
+        type="text"
+        name="name"
+        required
+        autocomplete="name"
+        minlength="2"
+        class="form-input mt-2 h-12 w-full rounded-md bg-ctp-surface0 focus:border-slate-400 focus:ring-0"
+      />
+    </label>
+  </div>
+  <div>
+    <label for="email" class="text-sm sm:text-base">
+      Email
+      <input
+        id="email"
+        type="email"
+        name="email"
+        required
+        autocomplete="email"
+        class="form-input mt-2 h-12 w-full rounded-md bg-ctp-surface0 focus:border-slate-400 focus:ring-0"
+      />
+    </label>
+  </div>
+  <div>
+    <label for="message" class="text-sm sm:text-base">
+      Message
+      <textarea
+        id="message"
+        name="message"
+        class="form-textarea mt-2 h-24 w-full rounded-md bg-ctp-surface0 focus:border-slate-400 focus:ring-0"
+      ></textarea>
+    </label>
+  </div>
+  <button
+    type="submit"
+    class="mt-4 rounded-md bg-ctp-overlay0 py-4 text-xl text-white transition-all hover:opacity-75"
+  >
+    Submit
+  </button>
+</form>
