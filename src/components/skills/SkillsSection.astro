@@ -57,16 +57,15 @@ const skills = [
 ];
 ---
 
-<section id="skills" class="pt-16">
-  <h2 class="text-center text-2xl sm:text-4xl">SKILLS</h2>
+<section id="skills" class="flex flex-1 p-8 gap-16 flex-col">
   <div
-    class="mt-12 grid grid-cols-2 place-items-center gap-8 sm:grid-cols-3 md:mx-16 md:grid-cols-4"
+    class="grid grid-cols-2 my-auto place-items-center gap-8 sm:grid-cols-3 md:mx-16 md:grid-cols-4"
   >
     {
       skills.slice(0, 12).map((skill) => (
-        <div class="flex flex-col items-center gap-2">
+        <div class="flex flex-col text-ctp-text items-center gap-2">
           <Icon name={skill.icon} class="w-20 h-20" />
-          <p class="text-center font-bold">{skill.name}</p>
+          <p class="text-center font-medium">{skill.name}</p>
         </div>
       ))
     }
