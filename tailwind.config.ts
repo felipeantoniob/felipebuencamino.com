@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Sen", ...defaultTheme.fontFamily.sans],
+        sans: ["Fira Code", ...defaultTheme.fontFamily.sans],
       },
       boxShadow: {
         'container-shadow': '.15rem .15rem 0 0 #232b34, .3rem .3rem 0 0 #232b34, .45rem .45rem 0 0 #232b34, .6rem .6rem 0 0 #232b34',
