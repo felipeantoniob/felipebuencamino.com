@@ -10,7 +10,8 @@ export default {
         sans: ["Fira Code", ...defaultTheme.fontFamily.sans],
       },
       boxShadow: {
-        'container-shadow': '.15rem .15rem 0 0 #232b34, .3rem .3rem 0 0 #232b34, .45rem .45rem 0 0 #232b34, .6rem .6rem 0 0 #232b34',
+        "container-shadow":
+          ".15rem .15rem 0 0 #232b34, .3rem .3rem 0 0 #232b34, .45rem .45rem 0 0 #232b34, .6rem .6rem 0 0 #232b34",
       },
       animation: {
         first: "moveVertical 30s ease infinite",
@@ -53,7 +54,7 @@ export default {
             transform: "translateY(-50%)",
           },
         },
-      }
+      },
     },
   },
   plugins: [
