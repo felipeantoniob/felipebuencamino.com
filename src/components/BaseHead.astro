@@ -1,0 +1,36 @@
+---
+import { ClientRouter } from "astro:transitions";
+import senWoff2 from "@fontsource/sen/files/sen-latin-400-normal.woff2?url";
+
+import "@fontsource/sen";
+import "@fontsource/sen/500.css";
+import "@fontsource/sen/600.css";
+import "@fontsource/sen/700.css";
+---
+
+<!-- Global Metadata -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="generator" content={Astro.generator} />
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- Fonts -->
+<link
+  rel="preload"
+  as="font"
+  type="font/woff2"
+  href={senWoff2}
+  crossorigin="anonymous"
+/>
+
+<!-- Analytics -->
+<script
+  is:inline
+  defer
+  type="text/partytown"
+  src="https://cloud.umami.is/script.js"
+  data-website-id="a4a4dbfb-1d2f-49f5-8f4c-4b6da60f5a3d"
+  data-domains="felipe-buencamino.onrender.com,www.felipe-buencamino.onrender.com"
+></script>
+
+<ClientRouter />

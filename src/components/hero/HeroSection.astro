@@ -1,15 +1,58 @@
-<section class="flex h-screen flex-col justify-center">
-  <div class="mx-8 sm:w-1/2">
-    <h2 class="text-lg font-medium text-ctp-text sm:text-xl">Hi, my name is</h2>
-    <h1 class="mt-4 break-normal text-4xl font-bold text-ctp-text sm:text-6xl">
-      Felipe Buencamino.
-    </h1>
-    <h1 class="mt-4 text-2xl font-medium text-ctp-text sm:text-4xl">
-      I'm a full stack developer.
-    </h1>
-    <p class="mt-4 text-lg text-ctp-text sm:text-xl">
-      Specializing in designing, developing, and maintaining high-quality web
-      and mobile applications.
-    </p>
+---
+import { Icon } from "astro-icon/components";
+
+const socialLinks = [
+  {
+    iconName: "line-md:github",
+    href: "https://github.com/felipeantoniob/",
+    ariaLabel: "Go to my Github",
+  },
+  {
+    iconName: "line-md:linkedin",
+    href: "https://www.linkedin.com/in/felipe-buencamino",
+    ariaLabel: "Message me on LinkedIn",
+  },
+  {
+    iconName: "line-md:email",
+    href: "mailto:felipebuencamino@gmail.com",
+    ariaLabel: "Send me an email",
+  },
+  {
+    iconName: "line-md:text-box",
+    href: "https://t.me/felipeantoniob",
+    ariaLabel: "Download my resume",
+  },
+];
+---
+
+<section
+  class="flex items-start my-auto mx-auto flex-col gap-4 p-8 justify-center"
+>
+  <h2 class="text-lg font-medium text-ctp-subtext0 sm:text-xl">
+    Hi, my name is
+  </h2>
+  <h1 class="break-normal text-4xl font-bold text-ctp-text sm:text-6xl">
+    Felipe Buencamino.
+  </h1>
+  <h1 class="text-2xl font-medium text-ctp-text sm:text-4xl">
+    I'm a full stack developer.
+  </h1>
+  <p class="text-lg text-ctp-subtext0 max-w-xl sm:text-xl">
+    Specializing in designing, developing, and maintaining high-quality web and
+    mobile applications.
+  </p>
+  <div class="flex flex-row gap-4">
+    {
+      socialLinks.map((link) => (
+        <a
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border p-2 text-black hover:opacity-75 transition-all bg-ctp-blue border-ctp-overlay0"
+        >
+          <Icon name={link.iconName} class="w-8 h-8" />
+        </a>
+      ))
+    }
   </div>
 </section>
