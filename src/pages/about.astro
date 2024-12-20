@@ -1,6 +1,14 @@
 ---
-import AboutSection from "~/components/about/AboutSection.astro";
+import Prose from "~/components/Prose.astro";
 import Layout from "~/layouts/Layout.astro";
+import { Content } from "~/components/about/about.md";
 ---
 
-<Layout title="Felipe Buencamino | About"><AboutSection /></Layout>
+<Layout title="Felipe Buencamino | About">
+  <section
+    id="about"
+    class="flex flex-col justify-center items-center p-8 sm:h-screen"
+  >
+    <Prose><Content /></Prose>
+  </section>
+</Layout>

@@ -45,6 +45,7 @@
     "@iconify-json/grommet-icons": "^1.2.0",
     "@iconify-json/line-md": "^1.2.4",
     "@iconify-json/simple-icons": "^1.2.15",
+    "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.10.1",
     "@typescript-eslint/parser": "^8.17.0",
     "eslint": "^9.16.0",

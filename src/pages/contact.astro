@@ -1,8 +1,11 @@
 ---
-import ContactSection from "~/components/contact/ContactSection.astro";
 import Layout from "~/layouts/Layout.astro";
+import { Content } from "~/components/contact/contact.md";
+import Prose from "~/components/Prose.astro";
 ---
 
 <Layout title="Felipe Buencamino | Contact">
-  <ContactSection />
+  <section id="contact" class="p-8 flex my-auto mx-auto">
+    <Prose><Content /></Prose>
+  </section>
 </Layout>

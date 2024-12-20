@@ -1,6 +1,11 @@
 ---
-import SkillsSection from "~/components/skills/SkillsSection.astro";
+import { Content } from "~/components/skills/skills.md";
+import Prose from "~/components/Prose.astro";
 import Layout from "~/layouts/Layout.astro";
 ---
 
-<Layout title="Felipe Buencamino | Skills"><SkillsSection /></Layout>
+<Layout title="Felipe Buencamino | Skills">
+  <section id="skills" class="mx-auto p-8">
+    <Prose class="max-w-full"><Content /></Prose>
+  </section>
+</Layout>
