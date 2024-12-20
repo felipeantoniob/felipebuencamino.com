@@ -2,7 +2,7 @@ export const PROJECTS = [
   {
     title: "Security Bank App",
     description:
-      "A mobile app designed for intuitive online banking, featuring secure transactions, real-time account management, and a user-friendly interface for seamless financial oversight.",
+      "A mobile app designed for intuitive online banking, featuring secure transactions, real-time account management, and a user-friendly interface.",
     tags: ["react", "javascript"],
     codeUrl: null,
     siteUrl: "https://mexplay.mx/",
@@ -35,7 +35,7 @@ export const PROJECTS = [
   {
     title: "Spotify Replay",
     description:
-      "A web app where users can view their top artists, tracks, and genres on Spotify. They can also generate playlists based on their personalized data to share with friends.",
+      "A web app where users can view their top artists, tracks, and genres on Spotify. They can also generate playlists based on their personalized data.",
     tags: ["react", "javascript"],
     codeUrl: "https://github.com/felipeantoniob/spotify-replay#readme",
     siteUrl: "https://spotify-replay.vercel.app/",
@@ -60,7 +60,7 @@ export const PROJECTS = [
       "An online tuner that makes tuning instruments quick and accurate, it offers real-time tuning through a straightforward and intuitive interface.",
     tags: ["react", "javascript"],
     codeUrl: "https://github.com/felipeantoniob/todo-list#readme",
-    siteUrl: "https://next-todo-app-two.vercel.app",
+    siteUrl: "https://2ner.vercel.app/",
     id: 4,
     technologies: [
       { name: "Vite", url: "https://vitejs.dev/" },
@@ -70,19 +70,18 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Cinehub",
+    title: "Conjugador",
     description:
-      "A movie database app that allows users to search for movies and view details such as the plot summary, genres, and actors and uses the TMDB API to retrieve data on the movies.",
+      "A Discord bot built with Go that provides Spanish verb conjugations from a SQLite database. Users input a verb, mood, and tense, and get the correct conjugation instantly.",
     tags: ["react", "javascript"],
-    codeUrl: "https://github.com/felipeantoniob/cinehub#readme",
-    siteUrl: "https://cinehub.vercel.app",
+    codeUrl: "https://github.com/felipeantoniob/goConjugationBot#readme",
+    siteUrl: "",
     id: 2,
     technologies: [
-      { name: "Next.js", url: "https://nextjs.org/" },
-      { name: "Typescript", url: "https://www.typescriptlang.org/" },
-      { name: "Tailwind", url: "https://tailwindcss.com/" },
-      { name: "tRPC", url: "https://trpc.io/" },
-      { name: "Prisma", url: "https://www.prisma.io/" },
+      { name: "Go", url: "https://go.dev/" },
+      { name: "SQLite", url: "https://www.sqlite.org/" },
+      { name: "sqlc", url: "https://sqlc.dev/" },
+      { name: "Docker", url: "https://www.docker.com/" },
     ],
   },
   {

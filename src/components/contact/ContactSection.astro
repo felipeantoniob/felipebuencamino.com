@@ -1,32 +1,10 @@
 ---
-import ContactForm from "./ContactForm.astro";
+import ContactInfo from "./ContactInfo.astro";
 ---
 
-<section
-  id="contact"
-  class="p-8 flex w-full h-full items-center justify-center"
->
-  <div class="grid grid-cols-1 sm:grid-cols-2">
-    <ContactForm />
-    <div class="p-8 text-ctp-text">
-      <p class="text-lg sm:text-xl">
-        Have an exciting project you need some help with? Feel free to send me a
-        message, and let's chat.
-      </p>
-      <p class="mt-8 break-words text-lg sm:text-xl">
-        If you have any questions about me or my projects, you can send an email
-        to{" "}
-        <a
-          href="mailto:felipebuencamino@gmail.com"
-          class="italic underline transition-all hover:opacity-75"
-        >
-          felipebuencamino@gmail.com
-        </a>{" "}
-        and I'll get back to you as soon as possible.
-      </p>
-      <p class="mt-8 text-lg sm:text-xl">
-        Drop a comment, question, or concern, and thanks for stopping by!
-      </p>
-    </div>
+<section id="contact" class="p-8 flex my-auto items-center justify-center">
+  <div class="mx-auto max-w-xl">
+    <!-- <ContactForm /> -->
+    <ContactInfo />
   </div>
 </section>
