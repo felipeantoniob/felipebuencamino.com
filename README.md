@@ -1,54 +1,98 @@
-# Astro Starter Kit: Basics
+# felipebuencamino.com
 
-```sh
-npm create astro@latest -- --template basics
+My personal website, showcasing my skills, projects, and experience. Check it out [here](www.felipebuencamino.com).
+
+## Tech Stack
+
+- **Astro**: A modern static site generator that allows using React and other frameworks seamlessly.
+- **React**: For building interactive components and dynamic content.
+- **TailwindCSS**: A utility-first CSS framework for styling the website.
+- **Prettier**: Code formatting tool to ensure consistent code style.
+- **ESLint**: Linting to maintain high-quality and error-free code.
+- **TypeScript**: For static typing and better development experience.
+- **Astro Icons**: For adding icons to the site using various icon libraries.
+
+## Installation
+
+To set up the project locally, you'll need to clone this repository and install the dependencies.
+
+1. **Clone the repository**:
+
+```zsh
+git clone https://github.com/felipeantoniob/felipe-buencamino-portfolio.git
+
+cd felipe-buencamino-portfolio
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+2. **Install dependencies**:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```zsh
+ pnpm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Development
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+To start the development server and view the project locally:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```zsh
+pnpm dev
+```
 
-## 🧞 Commands
+This will start a local development server at `http://localhost:4321` where you can preview the site.
 
-All commands are run from the root of the project, from a terminal:
+## Build & Deployment
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+To build the project for production:
 
-## 👀 Want to learn more?
+```zsh
+pnpm build
+```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This will create a production-ready version of the website in the `dist/` folder.
+
+To preview the production build locally:
+
+```zsh
+pnpm preview
+```
+
+## Code Style
+
+This project uses the following tools for code formatting and linting:
+
+- **Prettier**: Ensures consistent code formatting.
+- **ESLint**: Helps with maintaining code quality and identifying potential issues.
+
+To check code formatting:
+
+```zsh
+pnpm format
+```
+
+To fix code formatting issues:
+
+```zsh
+pnpm format:fix
+```
+
+To lint the code:
+
+```zsh
+pnpm lint
+```
+
+To automatically fix linting issues:
+
+```zsh
+pnpm lint:fix
+```
+
+## License
+
+This project is open-source and available under the [MIT License](/LICENSE).
+
+## Author
+
+Felipe Buencamino
+
+---
