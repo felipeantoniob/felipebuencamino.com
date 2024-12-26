@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from "astro/config";
+import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
@@ -13,7 +14,7 @@ export default defineConfig({
     prefetchAll: true,
     defaultStrategy: "load",
   },
-  integrations: [react(), tailwind(), sitemap(), icon()],
+  integrations: [react(), tailwind(), sitemap(), icon(), partytown()],
   server: {
     headers: {
       "Content-Security-Policy":
