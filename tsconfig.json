@@ -1,6 +1,6 @@
 {
   "extends": "astro/tsconfigs/strictest",
-  "exclude": ["dist"],
+  "exclude": ["dist", "public"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
