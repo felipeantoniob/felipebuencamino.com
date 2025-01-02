@@ -5,13 +5,13 @@ export const PROJECTS = [
       "A mobile app designed for intuitive online banking, featuring secure transactions, real-time account management, and a user-friendly interface.",
     tags: ["react", "javascript"],
     codeUrl: null,
-    siteUrl: "https://mexplay.mx/",
+    siteUrl: "https://www.securitybank.com/apps/personal-banking/",
     id: 0,
     technologies: [
-      { name: "React Native", url: "https://reactjs.org/" },
+      { name: "React Native", url: "https://reactnative.dev/" },
       { name: "Typescript", url: "https://www.typescriptlang.org/" },
       { name: "Redux", url: "https://redux.js.org/" },
-      { name: "Firebase", url: "https://firebase.google.com/" },
+      { name: "Apollo GraphQL", url: "https://www.apollographql.com/" },
       { name: "React Navigation", url: "https://reactnavigation.org/" },
       { name: "Sass", url: "https://sass-lang.com/" },
     ],
@@ -59,7 +59,7 @@ export const PROJECTS = [
     description:
       "An online tuner that makes tuning instruments quick and accurate, it offers real-time tuning through a straightforward and intuitive interface.",
     tags: ["react", "javascript"],
-    codeUrl: "https://github.com/felipeantoniob/todo-list#readme",
+    codeUrl: "https://github.com/felipeantoniob/2ner#readme",
     siteUrl: "https://2ner.vercel.app/",
     id: 4,
     technologies: [
@@ -74,7 +74,7 @@ export const PROJECTS = [
     description:
       "A Discord bot built with Go that provides Spanish verb conjugations from a SQLite database. Users input a verb, mood, and tense, and get the correct conjugation instantly.",
     tags: ["react", "javascript"],
-    codeUrl: "https://github.com/felipeantoniob/goConjugationBot#readme",
+    codeUrl: "https://github.com/felipeantoniob/conjugador-bot#readme",
     siteUrl: "",
     id: 2,
     technologies: [
@@ -89,7 +89,7 @@ export const PROJECTS = [
     description:
       "An interactive drum machine website where users can play 16 drum pads with their mouse or keyboard. The drum samples were sampled from a Roland TR-808 drum machine.",
     tags: ["react", "javascript"],
-    codeUrl: "https://github.com/felipeantoniob/TS-808#readme",
+    codeUrl: "https://github.com/felipeantoniob/ts-808#readme",
     siteUrl: "https://ts-808.vercel.app/",
     id: 3,
     technologies: [
