@@ -12,6 +12,9 @@ import { PROJECTS } from "../../constants";
             aria-label={project.title}
             target="_blank"
             rel="noopener noreferrer"
+            data-umami-event={`${project.title} link`}
+            data-umami-event-title={project.title}
+            data-umami-event-url={project.codeUrl ?? project.siteUrl}
             class="text-xl font-bold text-ctp-text w-fit hover:text-ctp-blue hover:underline transition-all"
           >
             {project.title}
