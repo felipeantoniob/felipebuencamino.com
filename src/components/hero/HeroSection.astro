@@ -6,21 +6,25 @@ const socialLinks = [
     iconName: "line-md:github",
     href: "https://github.com/felipeantoniob/",
     ariaLabel: "Go to my Github",
+    name: "github",
   },
   {
     iconName: "line-md:linkedin",
     href: "https://www.linkedin.com/in/felipe-buencamino",
     ariaLabel: "Message me on LinkedIn",
+    name: "linkedin",
   },
   {
     iconName: "line-md:email",
     href: "mailto:felipebuencamino@gmail.com",
     ariaLabel: "Send me an email",
+    name: "email",
   },
   {
     iconName: "line-md:text-box",
     href: "/felipe-buencamino-cv.pdf",
     ariaLabel: "Download my resume",
+    name: "resume",
   },
 ];
 ---
@@ -49,6 +53,7 @@ const socialLinks = [
           aria-label={link.ariaLabel}
           target="_blank"
           rel="noopener noreferrer"
+          data-umami-event={`${link.name} hero link`}
           class="border p-2 text-black hover:opacity-75 transition-all bg-ctp-blue border-ctp-overlay0"
         >
           <Icon name={link.iconName} class="w-8 h-8" />
