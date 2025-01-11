@@ -8,21 +8,18 @@ import BaseHead from "~/components/BaseHead.astro";
 import Footer from "~/components/footer/Footer.astro";
 import Frame from "~/components/Frame.astro";
 import Navbar from "~/components/navbar/Navbar.astro";
+import SEO from "~/components/SEO.astro";
 import BackgroundGradientAnimation from "~/components/ui/background-gradient-animation";
-
-interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en" class="bg-gradient-to-b from-ctp-base h-screen to-ctp-crust">
   <head>
     <BaseHead />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title}</title>
+    <slot name="seo">
+      {/* @ts-expect-error: slot prop isn't necessary in this component */}
+      <SEO />
+    </slot>
   </head>
 
   <body

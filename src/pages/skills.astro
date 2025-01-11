@@ -2,9 +2,11 @@
 import { Content } from "~/components/skills/skills.md";
 import Prose from "~/components/Prose.astro";
 import Layout from "~/layouts/Layout.astro";
+import SEO from "~/components/SEO.astro";
 ---
 
-<Layout title="Felipe Buencamino | Skills">
+<Layout>
+  <SEO title="Felipe Buencamino | Skills" slot="seo" />
   <section id="skills" class="mx-auto p-8">
     <Prose class="max-w-full"><Content /></Prose>
   </section>

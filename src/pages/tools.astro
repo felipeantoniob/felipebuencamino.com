@@ -1,8 +1,10 @@
 ---
+import SEO from "~/components/SEO.astro";
 import ToolsList from "~/components/tools/ToolsList";
 import Layout from "~/layouts/Layout.astro";
 ---
 
-<Layout title="Felipe Buencamino | Tools">
+<Layout>
+  <SEO title="Felipe Buencamino | Tools" slot="seo" />
   <ToolsList />
 </Layout>

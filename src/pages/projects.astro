@@ -1,8 +1,10 @@
 ---
 import ProjectsSection from "~/components/projects/ProjectsSection.astro";
+import SEO from "~/components/SEO.astro";
 import Layout from "~/layouts/Layout.astro";
 ---
 
-<Layout title="Felipe Buencamino | Projects">
+<Layout>
+  <SEO title="Felipe Buencamino | Projects" slot="seo" />
   <ProjectsSection />
 </Layout>

@@ -2,9 +2,11 @@
 import Layout from "~/layouts/Layout.astro";
 import { Content } from "~/components/contact/contact.md";
 import Prose from "~/components/Prose.astro";
+import SEO from "~/components/SEO.astro";
 ---
 
-<Layout title="Felipe Buencamino | Contact">
+<Layout>
+  <SEO title="Felipe Buencamino | Contact" slot="seo" />
   <section id="contact" class="p-8 flex my-auto mx-auto">
     <Prose><Content /></Prose>
   </section>
