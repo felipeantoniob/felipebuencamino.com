@@ -27,13 +27,15 @@ const socialLinks = [
     name: "resume",
   },
 ];
+
+const currentYear = new Date().getFullYear();
 ---
 
 <footer
   class="lg:p-4 p-2 lg:mx-8 lg:mt-4 flex flex-row justify-between items-center"
 >
   <p class="text-sm hidden lg:block font-medium">
-    © Designed and Built by Felipe Buencamino, 2024
+    © Designed and Built by Felipe Buencamino, {currentYear}
   </p>
   <div class="flex flex-row gap-4">
     {
