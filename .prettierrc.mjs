@@ -6,8 +6,8 @@ import { fileURLToPath } from "url";
 /** @type { PrettierConfig | TailwindConfig } */
 const config = {
   plugins: ["prettier-plugin-tailwindcss", "prettier-plugin-astro"],
-  tailwindConfig: fileURLToPath(
-    new URL("./tailwind.config.ts", import.meta.url),
+  tailwindStylesheet: fileURLToPath(
+    new URL("./src/styles/global.css", import.meta.url),
   ),
   overrides: [
     {

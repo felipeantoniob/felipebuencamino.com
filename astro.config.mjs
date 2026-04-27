@@ -1,10 +1,9 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, fontProviders } from "astro/config";
 import partytown from "@astrojs/partytown";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
-
 import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
@@ -17,7 +16,21 @@ export default defineConfig({
     defaultStrategy: "load",
   },
 
-  integrations: [react(),  sitemap(), icon(), partytown()],
+  fonts: [
+    {
+      provider: fontProviders.fontsource(),
+      name: "Fira Code",
+      cssVariable: "--font-fira-code",
+      weights: [400, 500, 600, 700],
+    },
+    {
+      provider: fontProviders.fontsource(),
+      name: "Sen",
+      cssVariable: "--font-sen",
+    },
+  ],
+
+  integrations: [react(), sitemap(), icon(), partytown()],
 
   server: {
     headers: {

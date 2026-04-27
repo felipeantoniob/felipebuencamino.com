@@ -1,11 +1,7 @@
 ---
 import { ClientRouter } from "astro:transitions";
-import senWoff2 from "@fontsource/sen/files/sen-latin-400-normal.woff2?url";
 
-import "@fontsource/sen";
-import "@fontsource/sen/500.css";
-import "@fontsource/sen/600.css";
-import "@fontsource/sen/700.css";
+import { Font } from "astro:assets";
 ---
 
 <!-- Global Metadata -->
@@ -27,13 +23,7 @@ import "@fontsource/sen/700.css";
 <link rel="manifest" href="/site.webmanifest" />
 
 <!-- Fonts -->
-<link
-  rel="preload"
-  as="font"
-  type="font/woff2"
-  href={senWoff2}
-  crossorigin="anonymous"
-/>
+<Font cssVariable="--font-fira-code" />
 
 <!-- Analytics -->
 <script
