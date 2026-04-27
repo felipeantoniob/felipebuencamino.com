@@ -3,8 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=22.14.0",
-    "pnpm": ">=10.20.0"
+    "node": ">=24.15.0",
+    "pnpm": ">=10.28.1"
   },
   "packageManager": "pnpm@10.28.1",
   "scripts": {
@@ -21,44 +21,44 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@astrojs/partytown": "^2.1.4",
-    "@astrojs/react": "^4.4.2",
-    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/check": "^0.9.8",
+    "@astrojs/partytown": "^2.1.7",
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/sitemap": "^3.7.2",
     "@fontsource/fira-code": "^5.2.7",
     "@fontsource/sen": "^5.2.8",
     "@tailwindcss/forms": "^0.5.11",
-    "@tailwindcss/vite": "^4.1.18",
-    "@types/react": "^19.2.9",
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "astro": "^5.16.15",
+    "astro": "^6.1.9",
     "astro-icon": "^1.1.5",
     "astro-seo": "^1.1.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.29.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "tailwind-merge": "^3.4.0",
-    "tailwindcss": "^4.1.18"
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwind-merge": "^3.5.0",
+    "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
     "@catppuccin/tailwindcss": "^1.0.0",
     "@iconify-json/bi": "^1.2.7",
     "@iconify-json/fa-brands": "^1.2.2",
     "@iconify-json/grommet-icons": "^1.2.4",
-    "@iconify-json/line-md": "^1.2.13",
-    "@iconify-json/simple-icons": "^1.2.67",
-    "@tailwindcss/postcss": "^4.1.18",
+    "@iconify-json/line-md": "^1.2.16",
+    "@iconify-json/simple-icons": "^1.2.80",
+    "@tailwindcss/postcss": "^4.2.4",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^25.0.10",
-    "@typescript-eslint/parser": "^8.53.1",
-    "eslint": "^9.39.2",
-    "eslint-plugin-astro": "^1.5.0",
+    "@types/node": "^25.6.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.2.1",
+    "eslint-plugin-astro": "^1.7.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "knip": "^5.82.1",
-    "prettier": "^3.8.1",
+    "knip": "^6.7.0",
+    "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "typescript": "^5.9.3"
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "typescript": "^6.0.3"
   }
 }
